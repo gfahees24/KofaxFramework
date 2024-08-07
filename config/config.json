@@ -1,0 +1,8 @@
+{
+    "ktaApiUrl": "https://api.kta.example.com",
+    "ktaUsername": "your-kta-username",
+    "ktaPassword": "your-kta-password",
+    "captureApiUrl": "https://api.capture.example.com",
+    "transformationApiUrl": "https://api.transformation.example.com",
+    "externalApiUrl": "https://api.external.example.com"
+}
