@@ -11,10 +11,12 @@ class CaptureWorkflow {
             Logger.info('Capture workflow completed successfully.');
             return documents;
         } catch (error) {
-            Logger.error('Error in capture workflow: ' + error.message);
+            Logger.error('Error in capture workflow:' + error.message);
             ErrorHandler.handleError(error);
         }
     }
 }
 
 module.exports = CaptureWorkflow;
+
+  
